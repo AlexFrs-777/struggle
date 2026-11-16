@@ -18,8 +18,10 @@ Il se déclenche tout seul. Tu peux aussi le lancer avec `/struggle`.
 ## Installer
 
 ```bash
-git clone https://github.com/AlexFrs-777/struggle.git ~/.claude/skills/struggle
+npx skills add https://github.com/AlexFrs-777/struggle --skill struggle -g
 ```
+
+`-g` l'installe pour tous tes projets. Sans `-g`, il ne s'installe que dans le projet courant.
 
 Pour qu'il se déclenche aussi dans les projets où Claude ne pense pas à lui, ajoute dans `~/.claude/CLAUDE.md` :
 
